@@ -1,0 +1,78 @@
+.menu-template {
+  background: white;
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  margin-right: auto;
+}
+
+.menubar {
+  width: 300px;
+  padding: 20px 10px 0px;
+  /* text-align: center; */
+  font-size: 17px;
+  font-weight: bold;
+  background: #688e99;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.menulist {
+  padding-left: 30px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 10px auto;
+}
+
+.yumicon {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 120px;
+  /* margin: 0 auto; */
+}
+
+.helpmsg {
+  color: #212529;
+  background-color: #ffffff;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.helpcbtn {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  border: solid 1px;
+  border-color:#688e99;
+  border-radius: 5px;
+  padding: 5px 7px;
+  background-color: #688e99;
+  color: white;
+}
+
+.helpcbtn:hover {
+  color: #688e99;
+  background-color: white;
+}
