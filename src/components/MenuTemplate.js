@@ -1,5 +1,3 @@
-/* menu sidebar */
-
 import React from 'react';
 import './MenuTemplate.css';
 import logo from './yum_logo.png';
@@ -11,7 +9,6 @@ const MenuTemplate = () => {
         <div className = "menubar">
             <img src = {logo} alt = 'logo' className="yumicon"/>
 
-            /*menulist*/
 
             <div className = "menulist">
 
@@ -26,7 +23,6 @@ const MenuTemplate = () => {
                 <li>#NORDIC</li>
               </ul>
 
-              /*도움 메시지*/
 
               <div className = "helpmsg">
                 <span> If you want to<br/>post your post?<br/> </span>
