@@ -1,3 +1,5 @@
+/* header */
+
 import React from 'react';
 import './Header.css';
 import mypage from './account_icon.png';
@@ -7,10 +9,16 @@ import signin from './signin_icon.png';
 const Header = () => {
   return (
     <div>
+
+
       <main className = "header-template">
+
+        /*검색창*/
         <input className = "search"
           placeholder = "search for tags"
         />
+
+        /*고정 component들*/
 
         <div className = "header-items">
 
