@@ -15,11 +15,13 @@
     margin-right: 2%;
     margin-bottom: 2%;
 }
-.post p {
+.post a {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 1%;
     font-size: 18px;
+    color: black;
+    text-decoration: none
 }
 .post-thumb{
     position: absolute; top:0; left: 0;
@@ -55,4 +57,5 @@
     text-align: center;
     width: 100%;
     margin-top: 8%;
+    color : black;
 }
