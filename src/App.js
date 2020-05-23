@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './post.css';
 import Router from './Routes/Router';
 import MenuTemplate from './components/MenuTemplate';
 import Header from './components/Header';

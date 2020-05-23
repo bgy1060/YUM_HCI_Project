@@ -2,6 +2,7 @@ import React from 'react';
 import like from '../img/like.png';
 import likeChecked from '../img/likeChecked.png';
 import share from '../img/share.png'
+import './Post.css'
 
 const like_image = {
   like : like,

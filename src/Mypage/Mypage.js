@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './post.css';
+import '../Main/Main.css';
 import './Mypage.css'
-import Post from './components/Post'
-import post1 from './img/post1.jpg';
-import post2 from './img/post2.jpg';
-import post3 from './img/post3.jpg';
-import post4 from './img/post4.jpg';
-import post5 from './img/post5.jpg';
-import post6 from './img/post6.jpg';
-import MenuTemplate from './components/MenuTemplate';
-import Header from './components/Header';
-import share from './img/share.png'
-import likeChecked from './img/likeChecked.png'
+import Post from '../components/Post'
+import post1 from '../img/post1.jpg';
+import post2 from '../img/post2.jpg';
+import post3 from '../img/post3.jpg';
+import post4 from '../img/post4.jpg';
+import post5 from '../img/post5.jpg';
+import post6 from '../img/post6.jpg';
+import MenuTemplate from '../components/MenuTemplate';
+import Header from '../components/Header';
+import share from '../img/share.png'
+import likeChecked from '../img/likeChecked.png'
 import { Button } from 'react-bootstrap'
 
 class My extends Component {

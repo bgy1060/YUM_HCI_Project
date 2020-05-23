@@ -1,2 +1,2 @@
-export {default as Main} from '../Main';
-export {default as My} from '../Mypage';
+export {default as Main} from '../Main/Main';
+export {default as My} from '../Mypage/Mypage';

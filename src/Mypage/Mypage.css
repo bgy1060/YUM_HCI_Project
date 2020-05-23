@@ -29,7 +29,7 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    top: -40px;
+    top: -55px;
     left: 2.5%
 }
 .Mypage-share-title{
@@ -37,17 +37,17 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    top: -40px;
+    top: -55px;
     left: 2.5%
 }
 .my-like{
     position: absolute;
-    top: -40px;
+    top: -55px;
     width: 2%;
 }
 .my-share{
     position: absolute;
-    top: -40px;
+    top: -55px;
     width: 2%;
 }
 .btn-info {

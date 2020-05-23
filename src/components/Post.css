@@ -3,7 +3,7 @@
     position: absolute;
     height: 85%;
     left: 16.3%;
-    top: 14%;
+    top: 16%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -33,7 +33,7 @@
 {
     position: absolute;
     right: 0;
-    width: 30%;
+    width: 32%;
     height: 15%;
     background: white;
     bottom: 20%;
@@ -44,7 +44,6 @@
     width: 25%;
     margin: 5% 0 5% 10%;
 }
-
 .like{
     width: 25%;
     margin: 5% 0 5% 5%;
