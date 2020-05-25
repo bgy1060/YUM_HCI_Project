@@ -1,0 +1,72 @@
+.Mypage-top{
+    position: absolute;
+    font-size: 40px;
+    left: 16.3%;
+    margin: 0;
+    top: 11%;
+    font-weight: bold;
+}
+.Mypage-like{
+    width: 83%;
+    position: absolute;
+    height: 85%;
+    left: 16.3%;
+    top: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Mypage-share{
+    width: 83%;
+    position: absolute;
+    height: 85%;
+    left: 16.3%;
+    top: 75%;
+    display: flex;
+    flex-wrap: wrap
+}
+.Mypage-like-title{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    top: -55px;
+    left: 2.5%
+}
+.Mypage-share-title{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    top: -55px;
+    left: 2.5%
+}
+.my-like{
+    position: absolute;
+    top: -55px;
+    width: 2%;
+}
+.my-share{
+    position: absolute;
+    top: -55px;
+    width: 2%;
+}
+.btn-info {
+    color: #fff;
+    background-color: #688e99 !important;
+    border-color: #688e99 !important;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    height: 5%;
+    width: 8%;
+}
+.btn.btn-share{
+    color: #fff;
+    background-color: #688e99 !important;
+    border-color: #688e99 !important;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    height: 5%;
+    width: 8%;
+}
