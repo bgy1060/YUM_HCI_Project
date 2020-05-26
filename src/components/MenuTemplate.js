@@ -1,13 +1,17 @@
 import React from 'react';
 import './MenuTemplate.css';
 import logo from './yum_logo.png';
+import { Link } from 'react-router-dom';
 
 const MenuTemplate = () => {
   return (
     <div>
       <main className = "menu-template">
         <div className = "menubar">
+
+        <Link to='/' >
             <img src = {logo} alt = 'logo' className="yumicon"/>
+        </Link>
 
 
             <div className = "menulist">

@@ -4,6 +4,12 @@ import mypage from './account_icon.png';
 import signin from './signin_icon.png';
 // import signout from './signout_icon.png';
 
+import { Link } from 'react-router-dom';
+
+const link_style = {
+  'textDecoration': 'none'
+}
+
 const Header = () => {
   return (
     <div>
@@ -19,7 +25,9 @@ const Header = () => {
         <div className = "header-items">
 
           <div className = "sign-in">
-            <p>SIGN-IN</p>
+          <Link to='/login' >
+              <p className="signinw">SIGN-IN</p>
+          </Link>
             <img src = {signin} alt = 'signin' className="signinicon"/>
           </div>
 
@@ -27,8 +35,14 @@ const Header = () => {
           </div>
 
           <div className = "mypage">
-            <p>MY PAGE</p>
-            <img src = {mypage} alt = 'mypage' className="mypageicon"/>
+            <Link to='/mypage' >
+              <p style={link_style} className="mypagew">MY PAGE</p>
+            </Link>
+            
+            <Link to='/mypage' >
+              <img src = {mypage} alt = 'mypage' className="mypageicon"/>
+            </Link>
+            
           </div>
 
         </div>

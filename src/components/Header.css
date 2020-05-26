@@ -31,14 +31,23 @@
 }
 
 .signinicon, .mypageicon {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 10px;
   height: 30px;
 }
 
+.signinw, .mypagew {
+  margin-top: 35px;
+  margin-left: 10px;
+  height: 30px;
+}
 .sign-in, .mypage {
   display: flex;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: 30px;
   font-size: 13px;
+}
+
+a{
+  color: black !important;
 }
