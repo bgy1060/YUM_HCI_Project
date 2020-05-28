@@ -8,24 +8,13 @@ const link_style = {
   'textDecoration': 'none'
 }
 
-import { Link } from 'react-router-dom';
-
-const link_style = {
-  'textDecoration': 'none'
-}
-
 const Header = () => {
   return (
     <div>
-
-
       <main className = "header-template">
-
         <input className = "search"
           placeholder = "search for tags"
         />
-
-
         <div className = "header-items">
 
           <div className = "sign-in">
@@ -46,9 +35,8 @@ const Header = () => {
             <Link to='/mypage' >
               <img src = {mypage} alt = 'mypage' className="mypageicon"/>
             </Link>
-
           </div>
-
+          
         </div>
       </main>
     </div>
