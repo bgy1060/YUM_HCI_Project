@@ -3,6 +3,10 @@ import './Header.css';
 import mypage from './account_icon.png';
 import signin from './signin_icon.png';
 // import signout from './signout_icon.png';
+import { Link } from 'react-router-dom';
+const link_style = {
+  'textDecoration': 'none'
+}
 
 import { Link } from 'react-router-dom';
 
@@ -42,7 +46,7 @@ const Header = () => {
             <Link to='/mypage' >
               <img src = {mypage} alt = 'mypage' className="mypageicon"/>
             </Link>
-            
+
           </div>
 
         </div>
