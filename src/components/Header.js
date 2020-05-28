@@ -8,6 +8,12 @@ const link_style = {
   'textDecoration': 'none'
 }
 
+import { Link } from 'react-router-dom';
+
+const link_style = {
+  'textDecoration': 'none'
+}
+
 const Header = () => {
   return (
     <div>
@@ -23,7 +29,9 @@ const Header = () => {
         <div className = "header-items">
 
           <div className = "sign-in">
-            <p>SIGN-IN</p>
+          <Link to='/login' >
+              <p className="signinw">SIGN-IN</p>
+          </Link>
             <img src = {signin} alt = 'signin' className="signinicon"/>
           </div>
 
@@ -32,9 +40,13 @@ const Header = () => {
 
           <div className = "mypage">
             <Link to='/mypage' >
-              <p style={link_style}>MY PAGE</p>
+              <p style={link_style} className="mypagew">MY PAGE</p>
             </Link>
-            <img src = {mypage} alt = 'mypage' className="mypageicon"/>
+            
+            <Link to='/mypage' >
+              <img src = {mypage} alt = 'mypage' className="mypageicon"/>
+            </Link>
+
           </div>
 
         </div>
