@@ -6,8 +6,8 @@ import { Main, My,Log } from './index';
 const Router = () => (
     <Switch>
         <Route exact path="/login" component={Log} />
-        <Route exact path="/" component={Main} />
-        <Route path="YUM_HCI_Project/mypage" component={My}/>
+        <Route exact path="YUM_HCI_Project/" component={Main} />
+        <Route path="/mypage" component={My}/>
     </Switch>
 );
 
