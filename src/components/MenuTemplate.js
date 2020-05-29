@@ -9,7 +9,7 @@ const MenuTemplate = () => {
       <main className = "menu-template">
         <div className = "menubar">
 
-        <Link to='/' >
+        <Link to='/YUM_HCI_Project/' >
             <img src = {logo} alt = 'logo' className="yumicon"/>
         </Link>
 
