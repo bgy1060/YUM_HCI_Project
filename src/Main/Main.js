@@ -17,13 +17,14 @@ class Main extends Component {
       <div>
         <Header />
         <MenuTemplate />
-        <Dropdown>
+        
+        <Dropdown className="dropdown">
           <Dropdown.Toggle variant="success" id="dropdown-basic">
-            정렬방식
+            SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">인기순</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">최신순</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
