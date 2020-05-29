@@ -18,7 +18,7 @@ const Header = () => {
         <div className = "header-items">
 
           <div className = "sign-in">
-          <Link to='/login' >
+          <Link to='/YUM_HCI_Project/login' >
               <p className="signinw">SIGN-IN</p>
           </Link>
             <img src = {signin} alt = 'signin' className="signinicon"/>
@@ -28,11 +28,11 @@ const Header = () => {
           </div>
 
           <div className = "mypage">
-            <Link to='/mypage' >
+            <Link to='/YUM_HCI_Project/mypage' >
               <p style={link_style} className="mypagew">MY PAGE</p>
             </Link>
             
-            <Link to='/mypage' >
+            <Link to='/YUM_HCI_Project/mypage' >
               <img src = {mypage} alt = 'mypage' className="mypageicon"/>
             </Link>
           </div>
