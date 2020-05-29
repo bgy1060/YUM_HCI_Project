@@ -5,9 +5,9 @@ import { Main, My,Log } from './index';
 
 const Router = () => (
     <Switch>
-        <Route exact path="http://bgy1060.github.io/login" component={Log} />
-        <Route exact path="http://bgy1060.github.io/" component={Main} />
-        <Route path="http://bgy1060.github.io/mypage" component={My}/>
+        <Route exact path="/login" component={Log} />
+        <Route exact path="/" component={Main} />
+        <Route path="YUM_HCI_Project/mypage" component={My}/>
     </Switch>
 );
 
