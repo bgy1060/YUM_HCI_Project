@@ -52,16 +52,21 @@ li {
   color: #212529;
   background-color: #ffffff;
   width: 200px;
-  height: 100px;
+  height: 18%;
   border-radius: 5px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  margin-bottom: 50px;
-  padding-top: 10px;
+  margin-bottom: 15%;
   text-align: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
-.helpcbtn {
+
+.helpbtn {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 12px;
   margin-top: 10px;
@@ -71,9 +76,22 @@ li {
   padding: 5px 7px;
   background-color: #688e99;
   color: white;
+  width: 50%;
 }
 
-.helpcbtn:hover {
+.helpbtn:hover {
   color: #688e99;
   background-color: white;
+}
+
+.msg {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.popover {
+  border: 5px solid !important;
+  border-color: #f0cb69 !important;
+  margin: -40px 0 0 60px !important;
+  padding: 10px !important;
 }

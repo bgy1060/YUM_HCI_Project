@@ -22,24 +22,27 @@ class My extends Component {
         <MenuTemplate />
         <p className="Mypage-top">My Page</p>
         <div className="Mypage-like">
+          <div className = "Mypage-like-title">
             <img src = {likeChecked} className="my-like" alt = "share"/>
-            <p className="Mypage-like-title">Likes</p>
+            <span>Likes</span>
+          </div>
           <Post thumb={post5} thumb_des="5 ways to do good interior"  count="67"/>
           <Post thumb={post1} thumb_des="Nomadic Style Trend Meets Cool Industrail Backdrops" count="11"/>
           <Post thumb={post3} thumb_des="Tips for finding good vintage accessories "  count="24"/>
-          <Button variant="info" >More +</Button> 
+          <Button variant="info" >More +</Button>
         </div>
         <div className="Mypage-share">
+          <div className = "Mypage-share-title">
             <img src = {share} className="my-share" alt = "share"/>
-            <p className="Mypage-share-title">Share</p>
+            <span>Share</span>
+          </div>
           <Post thumb={post4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="65"/>
           <Post thumb={post2} thumb_des="10 ways to decorate a vintage interior: introduction of related accessories"  count="19"/>
           <Post thumb={post6} thumb_des="Trendy studio wood interior"  count="235"/>
-          <Button variant="share" >More +</Button> 
+          <Button variant="share" >More +</Button>
       </div>
     </div>
     );
   }
 }
 export default My;
-
