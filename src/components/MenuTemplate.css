@@ -1,6 +1,6 @@
 .menu-template {
   background: white;
-  width: 300px;
+  width: 20%;
   position: fixed;
   height: 100%;
   bottom: 0;
@@ -10,7 +10,7 @@
 }
 
 .menubar {
-  width: 300px;
+  width: 100%;
   padding: 20px 10px 0px;
   /* text-align: center; */
   font-size: 17px;
@@ -19,7 +19,6 @@
   color: white;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .menulist {
@@ -51,7 +50,7 @@ li {
 .helpmsg {
   color: #212529;
   background-color: #ffffff;
-  width: 200px;
+  width: 70%;
   height: 18%;
   border-radius: 5px;
   position: absolute;
@@ -68,15 +67,15 @@ li {
 
 .helpbtn {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 12px;
-  margin-top: 10px;
+  font-size: 15px;
   border: solid 1px;
   border-color:#688e99;
   border-radius: 5px;
-  padding: 5px 7px;
+  padding: 5px;
   background-color: #688e99;
   color: white;
   width: 50%;
+  height: 30%;
 }
 
 .helpbtn:hover {
@@ -85,7 +84,7 @@ li {
 }
 
 .msg {
-  padding: 10px;
+  padding: 5%;
   font-size: 18px;
 }
 
