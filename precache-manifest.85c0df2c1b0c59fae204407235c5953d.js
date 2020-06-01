@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e847dd76e57d6a7d4e48520b0a8cb25f",
+    "revision": "26bc46b9dc25259e8f49db940a0c9611",
     "url": "/YUM_HCI_Project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YUM_HCI_Project/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f0b10da2fb8259f9f065",
+    "revision": "8289b967bd7377c22f96",
     "url": "/YUM_HCI_Project/static/css/main.52f0f1de.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YUM_HCI_Project/static/js/2.6c7a0776.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0b10da2fb8259f9f065",
-    "url": "/YUM_HCI_Project/static/js/main.474a945a.chunk.js"
+    "revision": "8289b967bd7377c22f96",
+    "url": "/YUM_HCI_Project/static/js/main.822dc322.chunk.js"
   },
   {
     "revision": "dd22c7f82c9344a53046",
