@@ -4,11 +4,7 @@
   align-items: center;
   max-width: 600px;
   margin: 100px;  
-  
-  
-  
 }
-
 .idpw{
   margin-bottom: 20px;
 }
@@ -18,7 +14,6 @@
   width: 170px;
   /* margin: 0 auto; */
 }
-
 .welcome{
   padding-left: 30px;
   font-size: 50px;
@@ -29,41 +24,30 @@
   margin-top: 300px;
 
 }
-
-
 .isMember{
   font-size: 20px;
   font-family: "Noto Sans KR", sans-serif;
 }
-
 .login{
   font-size: 20px;
   font-weight: bold;
 }
-
 .form-div {
   z-index: 1;
   text-align: left;
-  
 }
-
 .form-div, .button-div {
   transition: .5s ease-out;
 }
-
-
 form {
   border-radius: 5px;  
   display: flex;
   flex-direction: column;
   background-color: white;
 }
-
-
 input, button {
   margin: 5px;
 }
-
 /*SKELETON CSS*/
 
 /*INPUT STYLING*/
