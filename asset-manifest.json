@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/YUM_HCI_Project/static/css/main.2fe438c7.chunk.css",
-    "main.js": "/YUM_HCI_Project/static/js/main.de3c728d.chunk.js",
-    "main.js.map": "/YUM_HCI_Project/static/js/main.de3c728d.chunk.js.map",
-    "runtime-main.js": "/YUM_HCI_Project/static/js/runtime-main.e11cfe8f.js",
-    "runtime-main.js.map": "/YUM_HCI_Project/static/js/runtime-main.e11cfe8f.js.map",
+    "main.css": "/YUM_HCI_Project/static/css/main.52f0f1de.chunk.css",
+    "main.js": "/YUM_HCI_Project/static/js/main.474a945a.chunk.js",
+    "main.js.map": "/YUM_HCI_Project/static/js/main.474a945a.chunk.js.map",
+    "runtime-main.js": "/YUM_HCI_Project/static/js/runtime-main.a753be57.js",
+    "runtime-main.js.map": "/YUM_HCI_Project/static/js/runtime-main.a753be57.js.map",
     "static/css/2.af3c1da9.chunk.css": "/YUM_HCI_Project/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.74ca321a.chunk.js": "/YUM_HCI_Project/static/js/2.74ca321a.chunk.js",
-    "static/js/2.74ca321a.chunk.js.map": "/YUM_HCI_Project/static/js/2.74ca321a.chunk.js.map",
+    "static/js/2.6c7a0776.chunk.js": "/YUM_HCI_Project/static/js/2.6c7a0776.chunk.js",
+    "static/js/2.6c7a0776.chunk.js.map": "/YUM_HCI_Project/static/js/2.6c7a0776.chunk.js.map",
     "index.html": "/YUM_HCI_Project/index.html",
-    "precache-manifest.bf7b50cad62ef17000593630f747c0ac.js": "/YUM_HCI_Project/precache-manifest.bf7b50cad62ef17000593630f747c0ac.js",
+    "precache-manifest.1ea22caa2d04a2de9e81e6127b5573c1.js": "/YUM_HCI_Project/precache-manifest.1ea22caa2d04a2de9e81e6127b5573c1.js",
     "service-worker.js": "/YUM_HCI_Project/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/YUM_HCI_Project/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.2fe438c7.chunk.css.map": "/YUM_HCI_Project/static/css/main.2fe438c7.chunk.css.map",
-    "static/js/2.74ca321a.chunk.js.LICENSE.txt": "/YUM_HCI_Project/static/js/2.74ca321a.chunk.js.LICENSE.txt",
+    "static/css/main.52f0f1de.chunk.css.map": "/YUM_HCI_Project/static/css/main.52f0f1de.chunk.css.map",
+    "static/js/2.6c7a0776.chunk.js.LICENSE.txt": "/YUM_HCI_Project/static/js/2.6c7a0776.chunk.js.LICENSE.txt",
     "static/media/like.png": "/YUM_HCI_Project/static/media/like.3dbc4b10.png",
     "static/media/post1.jpg": "/YUM_HCI_Project/static/media/post1.9b44bbad.jpg",
     "static/media/post2.jpg": "/YUM_HCI_Project/static/media/post2.411982f8.jpg",
@@ -24,10 +24,10 @@
     "static/media/share.png": "/YUM_HCI_Project/static/media/share.80b4fee4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e11cfe8f.js",
+    "static/js/runtime-main.a753be57.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.74ca321a.chunk.js",
-    "static/css/main.2fe438c7.chunk.css",
-    "static/js/main.de3c728d.chunk.js"
+    "static/js/2.6c7a0776.chunk.js",
+    "static/css/main.52f0f1de.chunk.css",
+    "static/js/main.474a945a.chunk.js"
   ]
 }
