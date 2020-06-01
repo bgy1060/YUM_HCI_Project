@@ -8,7 +8,6 @@ class Log extends Component {
     
     this.state = {form: 'login'};   
     
-    // I like using objects to toggle values. We could just use true/false and just set to !self value as well. 
     this.toggle = {
       login: 'register',
       register: 'login'
