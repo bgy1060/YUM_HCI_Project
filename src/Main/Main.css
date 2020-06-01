@@ -5,10 +5,10 @@
   position: absolute;
   flex: none;
   top: 100px;
+  right: 0;
 }
 .btn-success{
     height: 40px;
-    width: 7.5%;
     margin-left: auto;
     margin-right: 30px;
     background-color: #688e99 !important;

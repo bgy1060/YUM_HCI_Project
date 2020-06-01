@@ -58,3 +58,17 @@
     width: 100%;
     color : black;
 }
+
+.modal-body{
+    display: flex;
+    justify-content: space-around
+}
+
+.modal-title{
+    font-size: 22px;
+    margin-left: 8%;
+}
+
+.modal-content{
+    margin-top: 50%;
+}

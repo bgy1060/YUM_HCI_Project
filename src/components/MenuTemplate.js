@@ -14,6 +14,7 @@ const popover = (
 );
 
 const MenuTemplate = () => {
+
   return (
     <div>
       <main className = "menu-template">
@@ -41,7 +42,7 @@ const MenuTemplate = () => {
               <div className = "helpmsg">
                 <span className = "msg"> If you want to<br/>post your post?<br/> </span>
                 <OverlayTrigger trigger = "click" placement = "right-start" overlay = {popover}>
-                  <button variant = "success" className = "helpbtn">CLICK</button>
+                  <button variant = "success" className = "helpbtn" >CLICK</button>
                 </OverlayTrigger>
               </div>
 
