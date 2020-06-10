@@ -1,63 +1,78 @@
+.post{
+  margin-top: 3%;
+}
 .Mypage-top{
     position: absolute;
-    font-size: 40px;
-    left: 16.3%;
+    font-size: 30px;
+    left: 340px;
     margin: 0;
-    top: 11%;
+    top: 13%;
     font-weight: bold;
+    color: #688e99;
 }
 .Mypage-like{
     width: 83%;
     position: absolute;
     height: 85%;
-    left: 16.3%;
-    top: 25%;
     display: flex;
     flex-wrap: wrap;
+    flex: none;
+    justify-content: flex-end;
+    flex-direction: row;
+    top: 20%;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
 }
 .Mypage-share{
-    width: 83%;
-    position: absolute;
-    height: 85%;
-    left: 16.3%;
-    top: 75%;
-    display: flex;
-    flex-wrap: wrap
+  width: 83%;
+  position: absolute;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  justify-content: flex-end;
+  flex-direction: row;
+  top: 70%;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 30px;
 }
 .Mypage-like-title{
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    align-items: center;
     position: absolute;
     font-size: 24px;
     font-weight: bold;
-    margin: 0;
-    top: -55px;
-    left: 2.5%
+    left: 120px;
 }
+
 .Mypage-share-title{
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    align-items: center;
     position: absolute;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    top: -55px;
-    left: 2.5%
+    left: 120px;
 }
-.my-like{
-    position: absolute;
-    top: -55px;
-    width: 2%;
+.my-like, .my-share{
+    height: 24px;
+    margin-right: 10px;
 }
-.my-share{
-    position: absolute;
-    top: -55px;
-    width: 2%;
-}
+
 .btn-info {
     color: #fff;
     background-color: #688e99 !important;
     border-color: #688e99 !important;
     position: absolute;
     top: 50%;
-    right: 3%;
-    height: 5%;
+    /* right: 3%; */
+    height: 7%;
     width: 8%;
 }
 .btn.btn-share{
@@ -66,7 +81,6 @@
     border-color: #688e99 !important;
     position: absolute;
     top: 50%;
-    right: 3%;
-    height: 5%;
+    height: 7%;
     width: 8%;
 }
