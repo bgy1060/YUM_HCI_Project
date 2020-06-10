@@ -12,9 +12,10 @@ const Header = () => {
   return (
     <div>
       <main className = "header-template">
-        <input className = "search"
-          placeholder = "search for tags"
-        />
+          <input className = "search"
+            placeholder = "search for tags"
+          />
+          <button className = "gobtn">GO</button>
         <div className = "header-items">
 
           <div className = "sign-in">

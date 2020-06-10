@@ -9,7 +9,8 @@ import post5 from '../img/post5.jpg';
 import post6 from '../img/post6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown} from 'react-bootstrap'
+import {Dropdown} from 'react-bootstrap';
+import { Badge } from 'react-bootstrap';
 
 class Main extends Component {
   render() {
@@ -17,7 +18,19 @@ class Main extends Component {
       <div>
         <Header />
         <MenuTemplate />
-        
+
+        <div className = "tags">
+          <Badge pill variant="info">
+            Vintage <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            Nordic <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            living room styling <strong>x</strong>
+          </Badge>{' '}
+        </div>
+
         <Dropdown className="dropdown">
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             SORT BY
