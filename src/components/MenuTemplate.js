@@ -2,7 +2,7 @@ import React from 'react';
 import './MenuTemplate.css';
 import logo from './yum_logo.png';
 import { Link } from 'react-router-dom';
-import { Overlay, Popover, OverlayTrigger } from 'react-bootstrap';
+import { Popover, OverlayTrigger } from 'react-bootstrap';
 
 const popover = (
   <Popover id = "popover-basic">
@@ -23,8 +23,6 @@ const MenuTemplate = () => {
         <Link to='/YUM_HCI_Project/' >
             <img src = {logo} alt = 'logo' className="yumicon"/>
         </Link>
-
-
             <div className = "menulist">
 
               <p>INTERIOR MOOD</p>
@@ -37,7 +35,6 @@ const MenuTemplate = () => {
                 <li>#VINTAGE</li>
                 <li>#NORDIC</li>
               </ul>
-
 
               <div className = "helpmsg">
                 <span className = "msg"> If you want to<br/>post your post?<br/> </span>
