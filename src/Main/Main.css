@@ -24,6 +24,7 @@
   margin-right: 30px;
   top: 130px;
 }
+
 .pagination{
   width: 5%;
   margin-right: 50%;
@@ -33,4 +34,25 @@
 .page-item.active .page-link {
   background-color: #688e99 !important;
   border-color: #688e99 !important;
+}
+
+.tags{
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  top: 100px;
+  position: absolute;
+  left: 22.5%;
+}
+
+.badge-info {
+  width: 100% !important;
+  margin-right: 3% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  height: 25px !important;
+  font-size: 90% !important;
+  background-color: #e4e4e4 !important;
+  font-weight: 500 !important;
+  color: #5d5d5d !important;
 }

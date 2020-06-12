@@ -6,11 +6,12 @@
   display: flex;
   align-items: center;
   flex: none;
+  flex-direction: row;
 }
 
 .search {
   background: white;
-  margin-left: 340px;
+  margin-left: 22.5%;
   width: 600px;
   height: 50px;
   padding-left: 15px;
@@ -19,6 +20,25 @@
   border: solid 2px;
   border-color:#688e99;
   border-radius: 5px;
+}
+
+.gobtn {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+  margin-left: 10px;
+  height: 50px;
+  width: 70px;
+  color: white;
+  border: solid 1px;
+  border-color:#688e99;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #688e99;
+}
+
+.gobtn:hover {
+  color: #688e99;
+  background-color: white;
 }
 
 .header-items {
@@ -50,4 +70,10 @@
 
 a{
   color: black !important;
+}
+
+.recommend {
+  display: flex;
+  flex: none;
+  flex-direction: row;
 }
