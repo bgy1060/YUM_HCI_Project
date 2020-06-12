@@ -9,7 +9,19 @@ import post5 from '../img/post5.jpg';
 import post6 from '../img/post6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown} from 'react-bootstrap'
+import {Dropdown, Pagination } from 'react-bootstrap'
+import { Badge } from 'react-bootstrap';
+
+let active = 1;
+let items = [];
+for (let number = 1; number <= 3; number++) {
+  var url = '/YUM_HCI_Project/pages/'+number
+  items.push(
+      <Pagination.Item href={url} key={number} active={number === active}>
+            {number}  
+      </Pagination.Item>
+  );
+}
 
 class Main extends Component {
   render() {
@@ -17,7 +29,19 @@ class Main extends Component {
       <div>
         <Header />
         <MenuTemplate />
-        
+
+        <div className = "tags">
+          <Badge pill variant="info">
+            Vintage <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            Nordic <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            living room styling <strong>x</strong>
+          </Badge>{' '}
+        </div>
+
         <Dropdown className="dropdown">
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             SORT BY
@@ -34,6 +58,7 @@ class Main extends Component {
           <Post thumb={post4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="65"/>
           <Post thumb={post5} thumb_des="5 ways to do good interior"  count="67"/>
           <Post thumb={post6} thumb_des="Trendy studio wood interior"  count="235"/>
+          <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
     );
