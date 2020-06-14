@@ -3,17 +3,16 @@ import './MenuTemplate.css';
 import logo from './yum_logo.png';
 import { Link } from 'react-router-dom';
 import { Popover, OverlayTrigger } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
+import { useState } from 'react';
 
-const popover = (
-  <Popover id = "popover-basic">
-    <Popover.Content className = "msg">
-      If you add the "tag" <br/>starting <strong>"#YUM_"</strong> <br/>to the blog post,<br/>
-      the post is posted <br/>on YUM hompage<br/> to promote it.
-    </Popover.Content>
-  </Popover>
-);
 
 const MenuTemplate = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div>
@@ -38,9 +37,16 @@ const MenuTemplate = () => {
 
               <div className = "helpmsg">
                 <span className = "msg"> If you want to<br/>post your post?<br/> </span>
-                <OverlayTrigger trigger = "click" placement = "right-start" overlay = {popover}>
-                  <button variant = "success" className = "helpbtn" >CLICK</button>
-                </OverlayTrigger>
+
+                  <button variant = "success" className = "helpbtn" onClick={handleShow}>CLICK</button>
+
+                <Modal show={show} onHide={handleClose}>
+                  <Modal.Header closeButton>
+                    <Modal.Title>If you want to post your post?</Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>If you add the "tag" starting "#YUM_" to the blog post,
+                  the post is posted on YUM hompage to promote it.</Modal.Body>
+                </Modal>
               </div>
 
             </div>

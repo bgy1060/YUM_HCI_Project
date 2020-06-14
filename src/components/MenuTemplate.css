@@ -23,6 +23,7 @@
 
 .menulist {
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 p{
@@ -38,6 +39,12 @@ ul {
 li {
   margin: 10px auto;
 }
+
+li:hover {
+  color: #688e99;
+  background-color: white;
+}
+
 
 .yumicon {
   padding-left: 30px;
