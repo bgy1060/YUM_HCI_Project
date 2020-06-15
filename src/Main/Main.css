@@ -46,7 +46,7 @@
 }
 
 .badge-info {
-  width: 100px !important;
+  width: 100% !important;
   margin-right: 3% !important;
   padding-left: 5% !important;
   padding-right: 5% !important;
@@ -55,5 +55,4 @@
   background-color: #e4e4e4 !important;
   font-weight: 500 !important;
   color: #5d5d5d !important;
-  text-align: center !important;
 }

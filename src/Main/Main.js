@@ -18,7 +18,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/pages/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -33,13 +33,13 @@ class Main extends Component {
         <div className = "tags">
           <Badge pill variant="info">
             Vintage <strong>x</strong>
-          </Badge>
+          </Badge>{' '}
           <Badge pill variant="info">
             Nordic <strong>x</strong>
-          </Badge>
+          </Badge>{' '}
           <Badge pill variant="info">
-            lighting <strong>x</strong>
-          </Badge>
+            living room styling <strong>x</strong>
+          </Badge>{' '}
         </div>
 
         <Dropdown className="dropdown">

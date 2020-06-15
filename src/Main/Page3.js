@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './Main.css';
 import Post from '../components/Post'
-import post12 from '../img/post12.jpg';
-import post13 from '../img/post13.jpg';
-import post14 from '../img/post14.jpg';
-import post15 from '../img/post15.jpg';
-import post16 from '../img/post16.jpg';
-import post17 from '../img/post17.jpg';
+import post12 from '../img/blue3.jpg';
+import post13 from '../img/nordic11.jpg';
+import post14 from '../img/vintage14.jpg';
+import post15 from '../img/wood3.jpg';
+import post16 from '../img/vintage13.jpg';
+import post17 from '../img/nordic3.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import {Dropdown, Pagination } from 'react-bootstrap'

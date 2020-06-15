@@ -3,10 +3,10 @@ import './Main.css';
 import Post from '../components/Post'
 import post6 from '../img/post7.jpg';
 import post7 from '../img/post8.jpg';
-import post8 from '../img/post9.jpg';
-import post9 from '../img/post10.jpg';
-import post10 from '../img/post11.jpg';
-import post11 from '../img/post12.jpg';
+import post8 from '../img/nordic14.jpg';
+import post9 from '../img/nordic1.jpg';
+import post10 from '../img/nordic4.jpg';
+import post11 from '../img/nordic17.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import {Dropdown, Pagination } from 'react-bootstrap'

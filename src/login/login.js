@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './login.css';
 import mint from './logo_mint.png';
+import MenuTemplate from '../components/MenuTemplate';
+import Header from '../components/Header';
+
 
 class Log extends Component {
   constructor() {
@@ -17,17 +20,22 @@ class Log extends Component {
   onSubmit(e) {
     e.preventDefault();
   }
+  
 
   render() {    
     return (
       <div>
+        <Header />
+        <MenuTemplate />
       <div style={{transform: `translate(${this.state.form === 'login' ? -16 : 7}%, 0%)`}}>
         <img src = {mint} alt = 'mint' className="logocon"/>
       </div>
       <div className="container">
-        <div style={{transform: `translate(${this.state.form === 'login' ? -2 : 105}%, 0%)`}} className="form-div">
+        <div style={{transform: `translate(${this.state.form === 'login' ? -2 : 110}%, 15%)`}} className="form-div">
           <form onSubmit={this.onSubmit.bind(this)}>
-            <input placeholder="Email" type="text" />
+              <input className="email" placeholder="Email" type="text" /> 
+              @
+
             <br></br>
             <input placeholder="Password" type="password" />
             <br></br>
