@@ -5,6 +5,7 @@ import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import Select from 'react-select';
 import { Link } from 'react-router-dom';
+import Modal from './Modal';
 
 const options = [
   { value: 'gmail', label: 'gmail.com' },
@@ -27,6 +28,22 @@ const selectStyle = {
 
 
 class Log extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      isModalOpen: false, 
+    }
+  }
+  
+  openModal = () => {
+    this.setState({ isModalOpen: true });
+  }
+  
+  closeModal = () => {
+    this.setState({ isModalOpen: false }); 
+  }
+
   render() {    
     return (
       <div>
@@ -38,7 +55,8 @@ class Log extends Component {
         <Select className='select' placeholder="Direct Input" menuColor='lightgray' styles={selectStyle} options = {options} />
         <input className="pw" placeholder="Password" type="password" />
         <div id="btn_group">
-          <button className="log_btn">Login</button>
+          <button className="log_btn" onClick={this.openModal}>Login</button>
+          <Modal isOpen={this.state.isModalOpen} close={this.closeModal} />
           <Link to='/YUM_HCI_Project/register' >
               <button className="regi_btn">Register</button>
           </Link>

@@ -4,6 +4,8 @@ import mint from './logo_mint.png';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import Select from 'react-select';
+import Modal2 from './Modal2';
+
 
 const options = [
   { value: 'gmail', label: 'gmail.com' },
@@ -26,6 +28,22 @@ const selectStyle = {
 
 
 class Regi extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      isModalOpen: false, 
+    }
+  }
+  
+  openModal = () => {
+    this.setState({ isModalOpen: true });
+  }
+  
+  closeModal = () => {
+    this.setState({ isModalOpen: false }); 
+  }
+
   render() {    
     return (
       <div>
@@ -38,7 +56,8 @@ class Regi extends Component {
         <input className="pw" placeholder="Password" type="password" />
         <input className="repw" placeholder="Re-typed password" type="password" />
         <div id="btn_group">
-          <button className="regi_btn2">Register</button>
+          <button className="regi_btn2" onClick={this.openModal}>Register</button>
+          <Modal2 isOpen={this.state.isModalOpen} close={this.closeModal} />
         </div>
       </div>
     );
