@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import './login.css';
+import './register.css';
 import mint from './logo_mint.png';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import Select from 'react-select';
-import { Link } from 'react-router-dom';
 
 const options = [
   { value: 'gmail', label: 'gmail.com' },
@@ -14,7 +13,8 @@ const options = [
 ];
 
 
-class Log extends Component {
+
+class Regi extends Component {
   render() {    
     return (
       <div>
@@ -25,14 +25,12 @@ class Log extends Component {
         <span >@</span>
         <Select className='select' options = {options} />
         <input className="pw" placeholder="Password" type="password" />
+        <input className="repw" placeholder="Re-typed password" type="password" />
         <div id="btn_group">
-          <button className="log_btn">Login</button>
-          <Link to='/YUM_HCI_Project/register' >
-              <button className="regi_btn">Register</button>
-          </Link>
+          <button className="regi_btn2">Register</button>
         </div>
       </div>
     );
   }
 }
-export default Log;
+export default Regi;

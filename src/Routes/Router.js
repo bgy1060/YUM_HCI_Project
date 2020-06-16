@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Main, My,Log, Page2, Page3,Blue,Blue2,Blue3,Nordic,Nordic2,Nordic3,Simple,
+import { Main, My,Log,Regi, Page2, Page3,Blue,Blue2,Blue3,Nordic,Nordic2,Nordic3,Simple,
     Simple2,Simple3,Vintage,Vintage2,Vintage3,White,White2,White3,Wood,Wood2,Wood3} from './index';
 
 
@@ -9,6 +9,7 @@ import { Main, My,Log, Page2, Page3,Blue,Blue2,Blue3,Nordic,Nordic2,Nordic3,Simp
 const Router = () => (
     <Switch>
         <Route exact path="/YUM_HCI_Project/login" component={Log} />
+        <Route exact path="/YUM_HCI_Project/register" component={Regi} />
         <Route exact path="/YUM_HCI_Project" component={Main} />
         <Route path="/YUM_HCI_Project/mypage" component={My}/>
         <Route exact path="/YUM_HCI_Project/pages/1" component={Main} />
