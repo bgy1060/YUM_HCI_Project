@@ -3,52 +3,36 @@ import './login.css';
 import mint from './logo_mint.png';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
+import Select from 'react-select';
+
+const options = [
+  { value: 'gmail', label: 'gmail.com' },
+  { value: 'naver', label: 'naver.com' },
+  { value: 'nate', label: 'nate.com' },
+  { value: 'daum', label: 'hanmail.net' } 
+];
+
 
 
 class Log extends Component {
-  constructor() {
-    super();    
-    
-    this.state = {form: 'login'};   
-    
-    this.toggle = {
-      login: 'register',
-      register: 'login'
-    };
-  }
-  
-  onSubmit(e) {
-    e.preventDefault();
-  }
-  
-
   render() {    
     return (
       <div>
         <Header />
         <MenuTemplate />
-      <div style={{transform: `translate(${this.state.form === 'login' ? -16 : 7}%, 0%)`}}>
         <img src = {mint} alt = 'mint' className="logocon"/>
-      </div>
-      <div className="container">
-        <div style={{transform: `translate(${this.state.form === 'login' ? -2 : 110}%, 15%)`}} className="form-div">
-          <form onSubmit={this.onSubmit.bind(this)}>
-              <input className="email" placeholder="Email" type="text" /> 
-              @
+        <input className="email" placeholder="Email" type="text" />
+        <span >@</span>
+        <Select className='select' options = {options} />
+        <input className="pw" placeholder="Password" type="password" />
+        <div id="btn_group">
+          <button className="log_btn">Login</button>
+          <button className="regi_btn">Register</button>
+        </div>
+        
+        
 
-            <br></br>
-            <input placeholder="Password" type="password" />
-            <br></br>
-            {this.state.form === 'login' ? '': <input placeholder="Re-typed password" type="password" />}
-            <br></br>
-            <button className="button-primary">Submit</button>
-          </form>
-        </div>
-        <div style={{transform: `translate(${this.state.form === 'login' ? 30: -460}%, 0%)`}} className="button-div">
-          <p>{this.state.form === 'login' ? 'Do not have an account?' : 'Already a member?'}</p>
-          <button onClick={() => {this.setState({form: this.toggle[this.state.form]})}}>{this.toggle[this.state.form]}</button>
-        </div>
-      </div>
+
       </div>
     );
   }
