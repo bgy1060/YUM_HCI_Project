@@ -18,11 +18,11 @@
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 .Modal > * {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .Modal > *:first-child {
-  margin-top: 16px;
+  margin-top: 4%;
 }
 .Modal p.title {
   font-size: 16pt;
@@ -31,10 +31,8 @@
 }
 .Modal .content {
   border-top: 1px solid #bebebe;
-  margin-top: 18px;
 }
 .Modal .content p {
-  padding: 8px;
   font-size: 12pt;
   color: #999;
 }
