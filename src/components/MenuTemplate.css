@@ -39,12 +39,16 @@ ul {
 li {
   margin: 10px auto;
   display: flex;
-  color: white;
+  color: white !important;
 }
 
-li:hover {
-  color: #688e99;
+li a:hover {
+  color: #688e99 !important;
   background-color: white;
+}
+
+li a {
+  color: white !important;
 }
 
 .yumicon {
@@ -101,4 +105,8 @@ li:hover {
   border-color: #f0cb69 !important;
   margin: -40px 0 0 60px !important;
   padding: 10px !important;
+}
+
+.selected{
+  color: #688e99 !important;
 }

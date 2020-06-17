@@ -4,7 +4,7 @@ import logo from './yum_logo.png';
 import { Link } from 'react-router-dom';
 import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
-
+import { NavLink } from 'react-router-dom';
 
 const MenuTemplate = () => {
 
@@ -26,29 +26,59 @@ const MenuTemplate = () => {
               <p>INTERIOR MOOD</p>
 
               <ul>
-                <Link to='/YUM_HCI_Project/white/' >
-                    <li>#WHITE</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/white/'>
+                    #WHITE
+                </NavLink></li>
 
-                <Link to='/YUM_HCI_Project/wood/' >
-                    <li>#WOOD</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/wood/' >
+                    #WOOD
+                </NavLink></li>
 
-                <Link to='/YUM_HCI_Project/blue/' >
-                    <li>#BLUE</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/blue/' >
+                    #BLUE
+                </NavLink></li>
 
-                <Link to='/YUM_HCI_Project/simple/' >
-                    <li>#SIMPLE</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/simple/' >
+                    #SIMPLE
+                </NavLink></li>
 
-                <Link to='/YUM_HCI_Project/vintage/' >
-                    <li>#VINTAGE</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/vintage/' >
+                    #VINTAGE
+                </NavLink></li>
 
-                <Link to='/YUM_HCI_Project/nordic/' >
-                    <li>#NORDIC</li>
-                </Link>
+                <li><NavLink
+                  activeClassName = "selected"
+                  activeStyle={{
+                    background: "white"
+                  }}
+                  to='/YUM_HCI_Project/nordic/' >
+                    #NORDIC
+                </NavLink></li>
 
               </ul>
 
