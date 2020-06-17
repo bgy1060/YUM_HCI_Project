@@ -1,5 +1,5 @@
 import React from 'react';
-import './modal2.css';
+import './modal.css';
 import { Link } from 'react-router-dom';
 
 const Modal2 = ({ isOpen, close }) => {

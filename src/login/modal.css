@@ -22,12 +22,13 @@
   margin-right: 4%;
 }
 .Modal > *:first-child {
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .Modal p.title {
   font-size: 16pt;
   font-weight: bold;
   color: #333;
+  margin-top: 5%;
 }
 .Modal .content {
   border-top: 1px solid #bebebe;
@@ -35,13 +36,14 @@
 .Modal .content p {
   font-size: 12pt;
   color: #999;
+  margin-top: 3%;
 }
 .Modal .button-wrap {
   margin: 0;
 }
 .Modal .button-wrap button {
   width: 100%;
-  padding: 12px 0;
+  padding: 3% 0;
   border-radius: 0 0 10px 10px;
   background-color: #688e99;
   font-size: 13pt;
