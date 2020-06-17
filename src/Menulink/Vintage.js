@@ -18,7 +18,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/vintage/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}  
+            {number}
       </Pagination.Item>
   );
 }
@@ -38,7 +38,7 @@ class Vintage extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            living room styling <strong>x</strong>
+            lighting <strong>x</strong>
           </Badge>{' '}
         </div>
 
@@ -58,7 +58,7 @@ class Vintage extends Component {
           <Post thumb={vintage3} thumb_des="Using Antique And Vintage Items In A Modern Interior"  count="65"/>
           <Post thumb={vintage4} thumb_des="Antique And Vintage Rugs In A Modern Living Room"  count="24"/>
           <Post thumb={vintage5} thumb_des="The description of Vintage Style Interior Design"  count="67"/>
-          
+
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

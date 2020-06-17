@@ -18,7 +18,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/blue/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}  
+            {number}
       </Pagination.Item>
   );
 }
@@ -38,7 +38,7 @@ class Blue extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            living room styling <strong>x</strong>
+            lighting <strong>x</strong>
           </Badge>{' '}
         </div>
 
@@ -58,7 +58,7 @@ class Blue extends Component {
           <Post thumb={post4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="65"/>
           <Post thumb={post16} thumb_des="Fashionable startup interior and company introduction"  count="24"/>
           <Post thumb={Blue2} thumb_des="Pantone chose the UNIVERSAL FAVOURITE classic blue as the color of 2020"  count="67"/>
-          
+
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

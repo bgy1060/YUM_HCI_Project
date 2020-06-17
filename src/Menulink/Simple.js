@@ -18,7 +18,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/simple/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}  
+            {number}
       </Pagination.Item>
   );
 }
@@ -38,7 +38,7 @@ class Simple extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            living room styling <strong>x</strong>
+            lighting <strong>x</strong>
           </Badge>{' '}
         </div>
 
@@ -58,7 +58,7 @@ class Simple extends Component {
           <Post thumb={simple4} thumb_des="Always, always, always measure and space plan first"  count="65"/>
           <Post thumb={simple5} thumb_des="Identify the form and function of a space before proceeding with a design"  count="24"/>
           <Post thumb={simple6} thumb_des="The more chairs the merrier"  count="67"/>
-          
+
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

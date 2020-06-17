@@ -9,8 +9,8 @@ import White17 from '../img/white17.PNG';
 import White18 from '../img/white18.PNG';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
-
+import {Dropdown, Pagination } from 'react-bootstrap';
+import { Badge } from 'react-bootstrap';
 
 let active = 3;
 let items = [];
@@ -18,7 +18,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/white/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}  
+            {number}
       </Pagination.Item>
   );
 }
@@ -29,6 +29,19 @@ class White3 extends Component {
       <div>
         <Header />
         <MenuTemplate />
+
+        <div className = "tags">
+          <Badge pill variant="info">
+            Vintage <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            Nordic <strong>x</strong>
+          </Badge>{' '}
+          <Badge pill variant="info">
+            lighting <strong>x</strong>
+          </Badge>{' '}
+        </div>
+        
         <Dropdown className="dropdown">
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             SORT BY
