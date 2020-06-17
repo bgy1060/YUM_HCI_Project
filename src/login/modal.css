@@ -8,9 +8,8 @@
 }
 .Modal {
   position: fixed;
-  top: 53%;
-  left: 58%;
-  transform: translate(-50%, -50%);
+  top: 43%;
+  left: 47%;
   width: 450px;
   height: 200px;
   border-radius: 10px;
@@ -36,10 +35,10 @@ p.title {
   margin-left: 5%;
   margin-right: 5%;
 }
-.Modal .button-wrap {
+.button-wrap {
   margin: 0;
 }
-.Modal .button-wrap button {
+.button-wrap button {
   width: 100%;
   padding: 3% 0;
   border-radius: 0 0 10px 10px;
@@ -49,9 +48,9 @@ p.title {
   border: 0;
   cursor: pointer;
 }
-.Modal .button-wrap button:hover {
+.button-wrap button:hover {
   background-color: #688e99;
 }
-.Modal .button-wrap button:active {
+.button-wrap button:active {
   background-color: #688e99;
 }
