@@ -1,5 +1,5 @@
 import React from 'react';
-import './modal.css';
+import './log_modal.css';
 import { Link } from 'react-router-dom';
 
 const Modal = ({ isOpen, close }) => {

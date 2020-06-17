@@ -1,0 +1,56 @@
+.Modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+.Modal {
+  position: fixed;
+  top: 43%;
+  left: 47%;
+  width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+p.title {
+  font-size: 16pt;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5%;
+  text-align: center;
+}
+.content {
+  border-top: 1px solid #bebebe;
+}
+.content p {
+  font-size: 12pt;
+  color: #999;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.button-wrap {
+  margin: 0;
+}
+.button-wrap button {
+  width: 100%;
+  padding: 3% 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #688e99;
+  font-size: 13pt;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.button-wrap button:hover {
+  background-color: #688e99;
+}
+.button-wrap button:active {
+  background-color: #688e99;
+}
