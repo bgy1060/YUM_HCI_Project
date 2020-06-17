@@ -12,7 +12,6 @@ const Modal = ({ isOpen, close }) => {
         <div className="Modal">
           <p className="title">Login Complete</p>
           <div className="content">
-            <br></br>
             <p>
             Thank you for visiting the YUM site. Login is complete.
     	    </p>

@@ -12,7 +12,6 @@ const Modal2 = ({ isOpen, close }) => {
         <div className="Modal">
           <p className="title">Member registration complete</p>
           <div className="content">
-            <br></br>
             <p>
             Thank you for registering as a member on the YUM site. You can now use the YUM site as a YUM member.
     	    </p>
