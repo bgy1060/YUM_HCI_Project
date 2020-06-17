@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YUM_HCI_Project/static/css/main.416fcf24.chunk.css",
+    "main.css": "/YUM_HCI_Project/static/css/main.cd6e52c7.chunk.css",
     "main.js": "/YUM_HCI_Project/static/js/main.0378e159.chunk.js",
     "main.js.map": "/YUM_HCI_Project/static/js/main.0378e159.chunk.js.map",
     "runtime-main.js": "/YUM_HCI_Project/static/js/runtime-main.e11cfe8f.js",
@@ -9,10 +9,10 @@
     "static/js/2.05615a8f.chunk.js": "/YUM_HCI_Project/static/js/2.05615a8f.chunk.js",
     "static/js/2.05615a8f.chunk.js.map": "/YUM_HCI_Project/static/js/2.05615a8f.chunk.js.map",
     "index.html": "/YUM_HCI_Project/index.html",
-    "precache-manifest.22a6e7922ad233b0cb05ec36dd4aab27.js": "/YUM_HCI_Project/precache-manifest.22a6e7922ad233b0cb05ec36dd4aab27.js",
+    "precache-manifest.f4b4b4163be1d77e02d73b2ff08838c0.js": "/YUM_HCI_Project/precache-manifest.f4b4b4163be1d77e02d73b2ff08838c0.js",
     "service-worker.js": "/YUM_HCI_Project/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/YUM_HCI_Project/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.416fcf24.chunk.css.map": "/YUM_HCI_Project/static/css/main.416fcf24.chunk.css.map",
+    "static/css/main.cd6e52c7.chunk.css.map": "/YUM_HCI_Project/static/css/main.cd6e52c7.chunk.css.map",
     "static/js/2.05615a8f.chunk.js.LICENSE.txt": "/YUM_HCI_Project/static/js/2.05615a8f.chunk.js.LICENSE.txt",
     "static/media/blue1.PNG": "/YUM_HCI_Project/static/media/blue1.5d0c59bd.PNG",
     "static/media/blue10.jpg": "/YUM_HCI_Project/static/media/blue10.3c6da9f4.jpg",
@@ -133,7 +133,7 @@
     "static/js/runtime-main.e11cfe8f.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.05615a8f.chunk.js",
-    "static/css/main.416fcf24.chunk.css",
+    "static/css/main.cd6e52c7.chunk.css",
     "static/js/main.0378e159.chunk.js"
   ]
 }
