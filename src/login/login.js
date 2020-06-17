@@ -5,7 +5,7 @@ import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import Select from 'react-select';
 import { Link } from 'react-router-dom';
-import Modal from './Modal';
+import Modal from './Modal2';
 
 const options = [
   { value: 'gmail', label: 'gmail.com' },
@@ -50,9 +50,13 @@ class Log extends Component {
         <Header />
         <MenuTemplate />
         <img src = {mint} alt = 'mint' className="logocon"/>
-        <input className="email" placeholder="Email" type="text" />
-        <span >@</span>
-        <Select className='select' placeholder="Direct Input" menuColor='lightgray' styles={selectStyle} options = {options} />
+        
+        <div id='email_group'>
+            <input className="email" placeholder="Email" type="text" />
+            <span className='a' >@</span>
+            <Select className='select' placeholder="Direct Input" menuColor='lightgray' styles={selectStyle} options = {options} />
+        </div>
+        
         <input className="pw" placeholder="Password" type="password" />
         <div id="btn_group">
           <button className="log_btn" onClick={this.openModal}>Login</button>

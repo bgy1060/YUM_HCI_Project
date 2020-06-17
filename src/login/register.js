@@ -50,11 +50,14 @@ class Regi extends Component {
         <Header />
         <MenuTemplate />
         <img src = {mint} alt = 'mint' className="logocon"/>
-        <input className="email" placeholder="Email" type="text" />
-        <span >@</span>
-        <Select className='select' placeholder="Direct Input" menuColor='lightgray' styles={selectStyle} options = {options} />
-        <input className="pw" placeholder="Password" type="password" />
+        <div id='email_group'>
+            <input className="email" placeholder="Email" type="text" />
+            <span className='a'>@</span>
+            <Select className='select' placeholder="Direct Input" menuColor='lightgray' styles={selectStyle} options = {options} />
+            <input className="pw" placeholder="Password" type="password" />
         <input className="repw" placeholder="Re-typed password" type="password" />
+
+        </div>
         <div id="btn_group">
           <button className="regi_btn2" onClick={this.openModal}>Register</button>
           <Modal2 isOpen={this.state.isModalOpen} close={this.closeModal} />
