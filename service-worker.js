@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/YUM_HCI_Project/precache-manifest.2d731a283b1b3c3009aa13f0c8b7c59e.js"
+  "/YUM_HCI_Project/precache-manifest.8af0df595820cfaefdff9d1546e07e07.js"
 );
 
 self.addEventListener('message', (event) => {
