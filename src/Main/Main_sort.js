@@ -35,6 +35,7 @@ for (let number=1;number<=6;number++){
   cnt.push(getRandomInt(1,1000));
 }
 
+
 let post = [
   post1,
   post2,
@@ -53,13 +54,14 @@ let thumb_des = [
 ]
 
 let posts = [];
-for (let number=0; number<=5;number++){
+for (let number=5; number>=0;number--){
+  let cnt = number*23
   posts.push(
-    <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt[number]}> </Post>
+    <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt}> </Post>
 );
 }
 
-class Main extends Component {
+class Main_sort extends Component {
   
   render() {
     return (
@@ -95,4 +97,4 @@ class Main extends Component {
     );
   }
 }
-export default Main;
+export default Main_sort;
