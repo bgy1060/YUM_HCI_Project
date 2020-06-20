@@ -74,3 +74,22 @@
 .modal-content{
     margin-top: 50%;
 }
+
+.kakao-title{
+    position: absolute;
+    left: 15%;
+    bottom: -18%;
+    font-size: 13px;
+}
+
+.facebook-title{
+    position: absolute;
+    bottom: -18%;
+    font-size: 13px;
+}
+.link-title{
+    position: absolute;
+    right: 13.5%;
+    bottom: -18%;
+    font-size: 13px;
+}

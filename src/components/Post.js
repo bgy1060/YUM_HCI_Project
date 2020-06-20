@@ -48,12 +48,15 @@ class Post extends React.Component {
 
 				<Modal show={this.state.show} onHide={this.handleClose}>
 					<Modal.Header closeButton>
-						<Modal.Title>Share the interior with more friends ! </Modal.Title>
+						<Modal.Title>Share the interior with more friends!</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
             <img alt="kakao" src={kakao}></img>
+            <p className="kakao-title">Kakao</p> 
             <img alt="face" src={face}></img>
+            <p className="facebook-title">FaceBook</p> 
             <img alt="link" src={link}></img>
+            <p className="link-title">Link copy</p> 
           </Modal.Body>
 					<Modal.Footer>
 					</Modal.Footer>
