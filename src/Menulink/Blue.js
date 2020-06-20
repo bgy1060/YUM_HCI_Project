@@ -15,7 +15,7 @@ import { Badge } from 'react-bootstrap';
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/blue/'+number
+  var url = '/YUM_HCI_Project/blue/'+number+'/'
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
             {number}

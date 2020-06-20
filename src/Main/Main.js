@@ -83,7 +83,7 @@ class Main extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu >
-            <Dropdown.Item href="/YUM_HCI_Project/popular">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/popular/">Popluarity</Dropdown.Item>
             <Dropdown.Item href="/YUM_HCI_Project/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
