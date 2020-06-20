@@ -52,12 +52,12 @@ class Nordic3 extends Component {
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
-          <Post thumb={nordic13} thumb_des="Scandinavian Interior Design – 10 ideas for your livingroom" count="11"/>
-          <Post thumb={nordic14} thumb_des="Scandinavian wood design with plants"  count="235"/>
-          <Post thumb={nordic15} thumb_des="Simple Scandinavian style"  count="19"/>
-          <Post thumb={nordic16} thumb_des="Couch with table in a simple style"  count="65"/>
-          <Post thumb={nordic17} thumb_des="Light Scandinavian interior"  count="24"/>
-          <Post thumb={nordic18} thumb_des="Clean style with Nordic interior"  count="67"/>
+          <Post thumb={nordic13} thumb_des="Scandinavian Interior Design – 10 ideas for your livingroom" count="64"/>
+          <Post thumb={nordic14} thumb_des="Scandinavian wood design with plants"  count="237"/>
+          <Post thumb={nordic15} thumb_des="Simple Scandinavian style"  count="27"/>
+          <Post thumb={nordic16} thumb_des="Couch with table in a simple style"  count="47"/>
+          <Post thumb={nordic17} thumb_des="Light Scandinavian interior"  count="58"/>
+          <Post thumb={nordic18} thumb_des="Clean style with Nordic interior"  count="28"/>
           
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>

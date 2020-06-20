@@ -15,10 +15,10 @@ import { Badge } from 'react-bootstrap';
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/simple/'+number+'/'
+  var url = '/YUM_HCI_Project/simple/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -38,7 +38,7 @@ class Simple extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            lighting <strong>x</strong>
+            living room styling <strong>x</strong>
           </Badge>{' '}
         </div>
 
@@ -52,13 +52,13 @@ class Simple extends Component {
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
-          <Post thumb={simple3} thumb_des="INTERIOR DESIGN IDEAS AND TIPS FROM DEVON AND MIRANDA"  count="235"/>
-          <Post thumb={simple1} thumb_des="Simple ocean view room interior" count="11"/>
-          <Post thumb={simple2} thumb_des="2 Simple, Modern Homes with Simple, Modern Furnishings"  count="19"/>
-          <Post thumb={simple4} thumb_des="Always, always, always measure and space plan first"  count="65"/>
-          <Post thumb={simple5} thumb_des="Identify the form and function of a space before proceeding with a design"  count="24"/>
+          <Post thumb={simple3} thumb_des="INTERIOR DESIGN IDEAS AND TIPS FROM DEVON AND MIRANDA"  count="27"/>
+          <Post thumb={simple1} thumb_des="Simple ocean view room interior" count="48"/>
+          <Post thumb={simple2} thumb_des="2 Simple, Modern Homes with Simple, Modern Furnishings"  count="58"/>
+          <Post thumb={simple4} thumb_des="Always, always, always measure and space plan first"  count="285"/>
+          <Post thumb={simple5} thumb_des="Identify the form and function of a space before proceeding with a design"  count="98"/>
           <Post thumb={simple6} thumb_des="The more chairs the merrier"  count="67"/>
-
+          
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
