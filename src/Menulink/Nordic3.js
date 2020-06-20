@@ -9,7 +9,7 @@ import nordic17 from '../img/nordic17.jpg';
 import nordic18 from '../img/nordic18.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import {   Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 let active = 3;
@@ -42,15 +42,6 @@ class Nordic3 extends Component {
           </Badge>{' '}
         </div>
 
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={nordic13} thumb_des="Scandinavian Interior Design – 10 ideas for your livingroom" count="11"/>
           <Post thumb={nordic14} thumb_des="Scandinavian wood design with plants"  count="235"/>

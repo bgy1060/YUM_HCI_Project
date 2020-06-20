@@ -9,8 +9,14 @@ import post10 from '../img/nordic4.jpg';
 import post11 from '../img/nordic17.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import { Dropdown, Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
+}
 
 let active = 2;
 let items = [];
@@ -22,6 +28,37 @@ for (let number = 1; number <= 3; number++) {
       </Pagination.Item>
   );
 }
+
+let cnt = [
+]
+for (let number=1;number<=6;number++){
+  cnt.push(getRandomInt(1,1000));
+}
+
+
+let thumb_des =[
+  "How to choose an interior company",
+  "Interior Products vs. Sale Events",
+  "How to find the right interior for you",
+  "What is a interior",
+  "Interior method preferred by young people",
+  "How to choose a good interior"  
+]
+
+let post = [
+  post6,
+  post7,
+  post8,
+  post9,
+  post10,
+  post11
+]
+
+let posts = [];
+for (let number=0; number<=5;number++){
+  posts.push(
+    <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt[number]}> </Post>
+);}
 
 class Page2 extends Component {
   render() {
@@ -47,17 +84,12 @@ class Page2 extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
+            <Dropdown.Item href="2/popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="YUM_HCI_Project/pages/2/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
-          <Post thumb={post6} thumb_des="How to choose an interior company" count="53"/>
-          <Post thumb={post7} thumb_des="Interior Products vs. Sale Events"  count="9"/>
-          <Post thumb={post8} thumb_des="How to find the right interior for you"  count="244"/>
-          <Post thumb={post9} thumb_des="What is a interior"  count="78"/>
-          <Post thumb={post10} thumb_des="Interior method preferred by young people"  count="97"/>
-          <Post thumb={post11} thumb_des="How to choose a good interior"  count="55"/>
+          {posts}
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

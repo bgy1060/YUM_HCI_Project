@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './Main.css';
 import Post from '../components/Post'
-import post12 from '../img/blue3.jpg';
-import post13 from '../img/nordic11.jpg';
-import post14 from '../img/vintage14.jpg';
-import post15 from '../img/wood3.jpg';
-import post16 from '../img/vintage13.jpg';
-import post17 from '../img/nordic3.jpg';
+import post6 from '../img/post7.jpg';
+import post7 from '../img/post8.jpg';
+import post8 from '../img/nordic14.jpg';
+import post9 from '../img/nordic1.jpg';
+import post10 from '../img/nordic4.jpg';
+import post11 from '../img/nordic17.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import { Dropdown, Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
-let active = 3;
+let active = 2;
 let items = [];
 for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/pages/'+number
@@ -23,7 +23,32 @@ for (let number = 1; number <= 3; number++) {
   );
 }
 
-class Page3 extends Component {
+let thumb_des =[
+  "How to choose an interior company",
+  "Interior Products vs. Sale Events",
+  "How to find the right interior for you",
+  "What is a interior",
+  "Interior method preferred by young people",
+  "How to choose a good interior"  
+]
+
+let post = [
+  post6,
+  post7,
+  post8,
+  post9,
+  post10,
+  post11
+]
+
+let posts = [];
+for (let number=5; number>=0;number--){
+    let cnt = number*23
+    posts.push(
+        <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt}> </Post>
+);}
+
+class Page2_sort extends Component {
   render() {
     return (
       <div>
@@ -47,21 +72,16 @@ class Page3 extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="3/popular">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="/">Last updated</Dropdown.Item>
+            <Dropdown.Item href="YUM_HCI_Project/pages/2/popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages/2/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
-          <Post thumb={post17} thumb_des="Introducing fashionable interiors this spring" count="51"/>
-          <Post thumb={post12} thumb_des="Interior introduced in broadcast"  count="6"/>
-          <Post thumb={post13} thumb_des="10 tips on how to make a good interior"  count="86"/>
-          <Post thumb={post14} thumb_des="Matching colors that are popular this year"  count="435"/>
-          <Post thumb={post15} thumb_des="How to repair an old house and examples"  count="7"/>
-          <Post thumb={post16} thumb_des="Fashionable startup interior and company introduction"  count="87"/>
+          {posts}
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
     );
   }
 }
-export default Page3;
+export default Page2_sort;

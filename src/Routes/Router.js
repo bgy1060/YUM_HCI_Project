@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Main, My,Log,Regi, Page2, Page3,Blue,Blue2,Blue3,Nordic,Nordic2,Nordic3,Simple,
-    Simple2,Simple3,Vintage,Vintage2,Vintage3,White,White2,White3,Wood,Wood2,Wood3,Main_sort} from './index';
+    Simple2,Simple3,Vintage,Vintage2,Vintage3,White,White2,White3,Wood,Wood2,Wood3,Main_sort,Page2_sort,Page3_sort} from './index';
 
 
 
@@ -15,7 +15,9 @@ const Router = () => (
         <Route path="/YUM_HCI_Project/mypage" component={My}/>
         <Route exact path="/YUM_HCI_Project/pages/1/" component={Main} />
         <Route exact path="/YUM_HCI_Project/pages/2/" component={Page2} />
+        <Route exact path="/YUM_HCI_Project/pages/2/popular/" component={Page2_sort} />
         <Route exact path="/YUM_HCI_Project/pages/3/" component={Page3} />
+        <Route exact path="/YUM_HCI_Project/pages/3/popular/" component={Page3_sort} />
         <Route exact path="/YUM_HCI_Project/blue/" component={Blue} />
         <Route exact path="/YUM_HCI_Project/blue/1/" component={Blue} />
         <Route exact path="/YUM_HCI_Project/blue/2/" component={Blue2} />

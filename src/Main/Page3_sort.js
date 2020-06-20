@@ -23,7 +23,32 @@ for (let number = 1; number <= 3; number++) {
   );
 }
 
-class Page3 extends Component {
+let thumb_des =[
+    "Introducing fashionable interiors this spring",
+    "Interior introduced in broadcast",
+    "10 tips on how to make a good interior",
+    "Matching colors that are popular this year",
+    "How to repair an old house and examples",
+    "Fashionable startup interior and company introduction",
+]
+
+let post = [
+  post12,
+  post13,
+  post14,
+  post15,
+  post16,
+  post17
+]
+
+let posts = [];
+for (let number=5; number>=0;number--){
+    let cnt = number*23
+    posts.push(
+        <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt}> </Post>
+);}
+
+class Page3_sort extends Component {
   render() {
     return (
       <div>
@@ -47,21 +72,16 @@ class Page3 extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="3/popular">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="/">Last updated</Dropdown.Item>
+            <Dropdown.Item href="YUM_HCI_Project/pages/3/popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages/3/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
-          <Post thumb={post17} thumb_des="Introducing fashionable interiors this spring" count="51"/>
-          <Post thumb={post12} thumb_des="Interior introduced in broadcast"  count="6"/>
-          <Post thumb={post13} thumb_des="10 tips on how to make a good interior"  count="86"/>
-          <Post thumb={post14} thumb_des="Matching colors that are popular this year"  count="435"/>
-          <Post thumb={post15} thumb_des="How to repair an old house and examples"  count="7"/>
-          <Post thumb={post16} thumb_des="Fashionable startup interior and company introduction"  count="87"/>
+          {posts}
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
     );
   }
 }
-export default Page3;
+export default Page3_sort;

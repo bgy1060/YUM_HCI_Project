@@ -9,7 +9,7 @@ import simple17 from '../img/simple17.jpg';
 import simple18 from '../img/simple18.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,6 @@ class Simple3 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={simple13} thumb_des="50 Easy Home Decor Ideas That Will Instantly Transform Your Space" count="53"/>
           <Post thumb={simple14} thumb_des="Simple Interior Design Brings Natural Decoration Ideas For Modern Residence"  count="9"/>

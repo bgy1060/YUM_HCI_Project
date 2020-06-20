@@ -9,7 +9,7 @@ import Blue14 from '../img/blue14.PNG';
 import Blue15 from '../img/blue15.PNG';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,6 @@ class Blue3 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={Blue10} thumb_des="How to decorate and accessorise rooms with blue" count="53"/>
           <Post thumb={Blue11} thumb_des="Color blue inspired interior:There's more blue than it meets the eye"  count="9"/>

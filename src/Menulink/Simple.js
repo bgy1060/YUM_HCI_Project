@@ -9,7 +9,7 @@ import simple5 from '../img/simple5.jpg';
 import simple6 from '../img/simple6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import {   Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 let active = 1;
@@ -41,16 +41,6 @@ class Simple extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={simple3} thumb_des="INTERIOR DESIGN IDEAS AND TIPS FROM DEVON AND MIRANDA"  count="235"/>
           <Post thumb={simple1} thumb_des="Simple ocean view room interior" count="11"/>

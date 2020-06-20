@@ -9,7 +9,7 @@ import post5 from '../img/post5.jpg';
 import post6 from '../img/post6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import { Dropdown, Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 function getRandomInt(min, max) {
@@ -56,8 +56,7 @@ let posts = [];
 for (let number=0; number<=5;number++){
   posts.push(
     <Post thumb={post[number]} thumb_des={thumb_des[number]} count={cnt[number]}> </Post>
-);
-}
+);}
 
 class Main extends Component {
   

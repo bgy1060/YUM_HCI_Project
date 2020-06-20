@@ -9,7 +9,7 @@ import Wood15 from '../img/wood15.jpg';
 import Wood16 from '../img/wood16.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,7 @@ class Wood3 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
+
         <div className="main-post">
           <Post thumb={Wood11} thumb_des="Classic wood, stylishly used for furniture color" count="53"/>
           <Post thumb={Wood15} thumb_des="One of the best ways to go full minimalist without using white is to opt for warm wood textures"  count="97"/>

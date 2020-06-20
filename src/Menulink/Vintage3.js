@@ -9,7 +9,7 @@ import vintage16 from '../img/vintage16.jpg';
 import vintage17 from '../img/vintage17.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,7 @@ class Vintage3 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
+
         <div className="main-post">
           <Post thumb={vintage12} thumb_des="Vintage Interior Design Ideas" count="53"/>
           <Post thumb={vintage13} thumb_des="Eclectic"  count="9"/>

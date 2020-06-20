@@ -9,7 +9,7 @@ import Blue2 from '../img/blue2.PNG';
 import Blue3 from '../img/blue3.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import {   Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 let active = 1;
@@ -41,16 +41,6 @@ class Blue extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={Blue1} thumb_des="Clean kitchen interior in blue" count="11"/>
           <Post thumb={Blue3} thumb_des="Vintage blue room interior, blue sofa on white flooring"  count="235"/>

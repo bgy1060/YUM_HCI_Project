@@ -9,7 +9,7 @@ import Wood3 from '../img/wood3.jpg';
 import Wood4 from '../img/wood4.JPG';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import {   Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 let active = 1;
@@ -42,15 +42,6 @@ class Wood extends Component {
           </Badge>{' '}
         </div>
 
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={Post6} thumb_des="Trendy studio wood interior" count="11"/>
           <Post thumb={Post5} thumb_des="5 ways to do good interior"  count="235"/>

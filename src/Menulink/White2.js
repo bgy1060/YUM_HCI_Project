@@ -9,7 +9,7 @@ import White11 from '../img/white11.jpg';
 import White12 from '../img/white12.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,7 @@ class White2 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
+
         <div className="main-post">
           <Post thumb={White7} thumb_des="Clear style, white, used almost everywhere, symbolizing purity" count="53"/>
           <Post thumb={White8} thumb_des="White can create a joyful and also a serious space"  count="9"/>

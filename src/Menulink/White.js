@@ -9,7 +9,7 @@ import White5 from '../img/white5.jpg';
 import White6 from '../img/white6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import {   Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 let active = 1;
@@ -41,16 +41,6 @@ class White extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={White2} thumb_des="Minimalist living room, which is furnished with two white sofas and an open plan kitchen in one corner"  count="235"/>
           <Post thumb={White1} thumb_des="White bedroom with ocean view" count="11"/>

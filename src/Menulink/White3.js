@@ -9,7 +9,7 @@ import White17 from '../img/white17.PNG';
 import White18 from '../img/white18.PNG';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 let active = 3;
@@ -41,16 +41,7 @@ class White3 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
+
         <div className="main-post">
           <Post thumb={White13} thumb_des="Scandinavian style is the trendiedst in white interior design" count="53"/>
           <Post thumb={White14} thumb_des="Geometric details bring excitement to modern white interiors"  count="9"/>

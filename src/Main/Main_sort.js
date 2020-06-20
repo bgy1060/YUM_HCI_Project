@@ -9,7 +9,7 @@ import post5 from '../img/post5.jpg';
 import post6 from '../img/post6.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap'
+import { Dropdown, Pagination } from 'react-bootstrap'
 import { Badge } from 'react-bootstrap';
 
 function getRandomInt(min, max) {

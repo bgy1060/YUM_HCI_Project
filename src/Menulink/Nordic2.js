@@ -9,7 +9,7 @@ import nordic11 from '../img/nordic11.jpg';
 import nordic12 from '../img/nordic12.jpg';
 import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
-import {Dropdown, Pagination } from 'react-bootstrap';
+import {   Pagination } from 'react-bootstrap';
 import { Badge } from 'react-bootstrap';
 
 
@@ -42,16 +42,6 @@ class Nordic2 extends Component {
             lighting <strong>x</strong>
           </Badge>{' '}
         </div>
-        
-        <Dropdown className="dropdown">
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            SORT BY
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Last updated</Dropdown.Item>
-          </Dropdown.Menu>
-      </Dropdown>
         <div className="main-post">
           <Post thumb={nordic7} thumb_des="Pink and green scatter cushions and pastel coloured wall art introduce colour to the living room of home tour number two" count="53"/>
           <Post thumb={nordic8} thumb_des="A white hallway connects the living areas"  count="9"/>
