@@ -15,10 +15,10 @@ import { Badge } from 'react-bootstrap';
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/white/'+number+'/'
+  var url = '/YUM_HCI_Project/white/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -38,7 +38,7 @@ class White extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            lighting <strong>x</strong>
+            living room styling <strong>x</strong>
           </Badge>{' '}
         </div>
         <div className="main-post">
@@ -48,7 +48,7 @@ class White extends Component {
           <Post thumb={White4} thumb_des="Despite the all white colour scheme in the galley kitchen, the integrated appliances have been selected in a black colourway"  count="65"/>
           <Post thumb={White5} thumb_des="A white bedroom scheme is a calm and restful place"  count="24"/>
           <Post thumb={White6} thumb_des="A square toilet and bidet provide a high end look in the plain scheme. Black fixtures and fittings bring it bang on trend"  count="67"/>
-
+          
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

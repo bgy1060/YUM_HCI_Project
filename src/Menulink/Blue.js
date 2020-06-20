@@ -15,10 +15,10 @@ import { Badge } from 'react-bootstrap';
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/blue/'+number+'/'
+  var url = '/YUM_HCI_Project/blue/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -38,17 +38,17 @@ class Blue extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            lighting <strong>x</strong>
+            living room styling <strong>x</strong>
           </Badge>{' '}
         </div>
         <div className="main-post">
-          <Post thumb={Blue1} thumb_des="Clean kitchen interior in blue" count="11"/>
-          <Post thumb={Blue3} thumb_des="Vintage blue room interior, blue sofa on white flooring"  count="235"/>
-          <Post thumb={post15} thumb_des="How to repair an old house and examples"  count="19"/>
-          <Post thumb={post4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="65"/>
-          <Post thumb={post16} thumb_des="Fashionable startup interior and company introduction"  count="24"/>
-          <Post thumb={Blue2} thumb_des="Pantone chose the UNIVERSAL FAVOURITE classic blue as the color of 2020"  count="67"/>
-
+          <Post thumb={Blue1} thumb_des="Clean kitchen interior in blue" count="31"/>
+          <Post thumb={Blue3} thumb_des="Vintage blue room interior, blue sofa on white flooring"  count="535"/>
+          <Post thumb={post15} thumb_des="How to repair an old house and examples"  count="354"/>
+          <Post thumb={post4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="85"/>
+          <Post thumb={post16} thumb_des="Fashionable startup interior and company introduction"  count="34"/>
+          <Post thumb={Blue2} thumb_des="Pantone chose the UNIVERSAL FAVOURITE classic blue as the color of 2020"  count="65"/>
+          
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

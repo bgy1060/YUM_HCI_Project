@@ -19,7 +19,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/wood/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -30,7 +30,6 @@ class Wood3 extends Component {
       <div>
         <Header />
         <MenuTemplate />
-
         <div className = "tags">
           <Badge pill variant="info">
             Vintage <strong>x</strong>

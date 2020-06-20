@@ -19,7 +19,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/simple/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }

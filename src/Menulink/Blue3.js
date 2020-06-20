@@ -19,7 +19,7 @@ for (let number = 1; number <= 3; number++) {
   var url = '/YUM_HCI_Project/blue/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -43,12 +43,12 @@ class Blue3 extends Component {
           </Badge>{' '}
         </div>
         <div className="main-post">
-          <Post thumb={Blue10} thumb_des="How to decorate and accessorise rooms with blue" count="53"/>
-          <Post thumb={Blue11} thumb_des="Color blue inspired interior:There's more blue than it meets the eye"  count="9"/>
-          <Post thumb={Blue12} thumb_des="If you genuinely adore blue and like being surrounded by it, start by painting the walls in your favorite blue shade."  count="244"/>
+          <Post thumb={Blue10} thumb_des="How to decorate and accessorise rooms with blue" count="57"/>
+          <Post thumb={Blue11} thumb_des="Color blue inspired interior:There's more blue than it meets the eye"  count="186"/>
+          <Post thumb={Blue12} thumb_des="If you genuinely adore blue and like being surrounded by it, start by painting the walls in your favorite blue shade."  count="241"/>
           <Post thumb={Blue13} thumb_des="The most classic pairing is a cool blue accent — being the least aggressive color choice possible."  count="78"/>
-          <Post thumb={Blue14} thumb_des="color blue offers freshness and elegance in this Mediterranean themed room"  count="97"/>
-          <Post thumb={Blue15} thumb_des="The combination of white and blue accentuates the neat but bold effect"  count="55"/>
+          <Post thumb={Blue14} thumb_des="color blue offers freshness and elegance in this Mediterranean themed room"  count="67"/>
+          <Post thumb={Blue15} thumb_des="The combination of white and blue accentuates the neat but bold effect"  count="27"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

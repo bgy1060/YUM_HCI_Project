@@ -15,10 +15,10 @@ import { Badge } from 'react-bootstrap';
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/nordic/'+number+'/'
+  var url = '/YUM_HCI_Project/nordic/'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
-            {number}
+            {number}  
       </Pagination.Item>
   );
 }
@@ -38,17 +38,17 @@ class Nordic extends Component {
             Nordic <strong>x</strong>
           </Badge>{' '}
           <Badge pill variant="info">
-            lighting <strong>x</strong>
+            living room styling <strong>x</strong>
           </Badge>{' '}
         </div>
         <div className="main-post">
-          <Post thumb={nordic1} thumb_des="Nomadic Style Trend Meets Cool Industrail Backdrops" count="11"/>
-          <Post thumb={nordic2} thumb_des="Vintage blue room interior, blue sofa on white flooring"  count="235"/>
-          <Post thumb={nordic3} thumb_des="How to repair an old house and examples"  count="19"/>
-          <Post thumb={nordic4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="65"/>
-          <Post thumb={nordic5} thumb_des="Fashionable startup interior and company introduction"  count="24"/>
-          <Post thumb={nordic6} thumb_des="Pantone chose the UNIVERSAL FAVOURITE classic blue as the color of 2020"  count="67"/>
-
+          <Post thumb={nordic1} thumb_des="Nomadic Style Trend Meets Cool Industrail Backdrops" count="71"/>
+          <Post thumb={nordic2} thumb_des="Vintage blue room interior, blue sofa on white flooring"  count="227"/>
+          <Post thumb={nordic3} thumb_des="How to repair an old house and examples"  count="94"/>
+          <Post thumb={nordic4} thumb_des="Everything related to the blue interior: focusing on furniture layout "  count="27"/>
+          <Post thumb={nordic5} thumb_des="Fashionable startup interior and company introduction"  count="76"/>
+          <Post thumb={nordic6} thumb_des="Pantone chose the UNIVERSAL FAVOURITE classic blue as the color of 2020"  count="77"/>
+          
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
