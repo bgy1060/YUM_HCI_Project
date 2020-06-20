@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "661ca821333649e22fe943416e444afc",
+    "revision": "b2a8ceda59da89fb7f14d8f0236a273f",
     "url": "/YUM_HCI_Project/index.html"
   },
   {
-    "revision": "a55954102a295374f7cc",
+    "revision": "aea4fcb9f72675239b7c",
     "url": "/YUM_HCI_Project/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "56862c5338c905379115",
-    "url": "/YUM_HCI_Project/static/css/main.e4b84ff2.chunk.css"
+    "revision": "aa8daa8b85d0e9e237a6",
+    "url": "/YUM_HCI_Project/static/css/main.00511a99.chunk.css"
   },
   {
-    "revision": "a55954102a295374f7cc",
-    "url": "/YUM_HCI_Project/static/js/2.05615a8f.chunk.js"
+    "revision": "aea4fcb9f72675239b7c",
+    "url": "/YUM_HCI_Project/static/js/2.1b50e54b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/YUM_HCI_Project/static/js/2.05615a8f.chunk.js.LICENSE.txt"
+    "url": "/YUM_HCI_Project/static/js/2.1b50e54b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56862c5338c905379115",
-    "url": "/YUM_HCI_Project/static/js/main.65d390b4.chunk.js"
+    "revision": "aa8daa8b85d0e9e237a6",
+    "url": "/YUM_HCI_Project/static/js/main.5afdf128.chunk.js"
   },
   {
     "revision": "2d92d0b76f47dd54a2e0",
