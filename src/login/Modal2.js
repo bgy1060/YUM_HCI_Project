@@ -1,10 +1,6 @@
 import React from 'react';
 import './regi_modal.css';
 import { Link } from 'react-router-dom';
-const p_style={
-  'margin-top' : '6%',
-  'margin-bottom' : '7%'
-}
 
 const Modal2 = ({ isOpen, close }) => {
   return (
@@ -14,10 +10,10 @@ const Modal2 = ({ isOpen, close }) => {
       <React.Fragment>
         <div className="Modal-overlay" onClick={close} />
         <div className="Modal">
-          <p className="title">Member Login complete</p>
+          <p className="title">Member registration complete</p>
           <div className="content">
-            <p style={p_style}>
-            Thank you for login as a member on the YUM site.
+            <p>
+            Thank you for registering as a member on the YUM site. You can now use the YUM site as a YUM member.
     	    </p>
           </div>
           <div className="button-wrap">
