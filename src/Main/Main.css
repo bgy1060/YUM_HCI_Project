@@ -31,9 +31,21 @@
   margin-top: 1%;
 }
 
-.page-item.active .page-link {
+.page-item.active {
   background-color: #688e99 !important;
   border-color: #688e99 !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  color: black !important;
 }
 
 .tags{
