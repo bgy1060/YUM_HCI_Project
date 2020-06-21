@@ -18,7 +18,7 @@ const Modal = ({ isOpen, close }) => {
           </div>
           <div className="button-wrap">
           <Link to='/YUM_HCI_Project/' >
-            <button onClick={close}>Confirm</button>
+            <button className="login-confirm" onClick={close}>Confirm</button>
           </Link>
           </div>
         </div>
