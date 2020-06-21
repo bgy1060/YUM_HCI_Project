@@ -13,7 +13,7 @@ const Router = () => (
         <Route exact path="/YUM_HCI_Project" component={Main} />
         <Route path="/YUM_HCI_Project/mypage" component={My} />
         <Route exact path="/YUM_HCI_Project/pages1/" component={Main} />
-        <Route exact path="/YUM_HCI_Project_popular" component={Main_sort} />
+        <Route exact path="/YUM_HCI_Project/popular/" component={Main_sort} />
         <Route exact path="/YUM_HCI_Project/pages2/" component={Page2} />
         <Route exact path="/YUM_HCI_Project/pages_2_popular/" component={Page2_sort} />
         <Route exact path="/YUM_HCI_Project/pages3/" component={Page3} />

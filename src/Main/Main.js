@@ -21,7 +21,7 @@ function getRandomInt(min, max) {
 let active = 1;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/pages'+number
+  var url = '/YUM_HCI_Project/pages'+number+'/'
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
             {number}
@@ -82,7 +82,7 @@ class Main extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu >
-            <Dropdown.Item href="/YUM_HCI_Project_popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/popular/">Popluarity</Dropdown.Item>
             <Dropdown.Item href="/YUM_HCI_Project/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>

@@ -21,7 +21,7 @@ function getRandomInt(min, max) {
 let active = 2;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/pages'+number
+  var url = '/YUM_HCI_Project/pages'+number+'/'
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
             {number}
