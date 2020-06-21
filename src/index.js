@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
-  <Router basename="/YUM_HCI_Project">
+  <Router>
     <App />
   </Router>,
   document.getElementById('root')

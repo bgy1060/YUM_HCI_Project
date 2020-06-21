@@ -15,7 +15,7 @@ import { Badge } from 'react-bootstrap';
 let active = 3;
 let items = [];
 for (let number = 1; number <= 3; number++) {
-  var url = '/YUM_HCI_Project/pages/'+number
+  var url = '/YUM_HCI_Project/pages'+number
   items.push(
       <Pagination.Item href={url} key={number} active={number === active}>
             {number}
@@ -47,8 +47,8 @@ class Page3 extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="/YUM_HCI_Project/pages/3/popular/">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="/YUM_HCI_Project/pages/3/">Last updated</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages_3_popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages3/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">

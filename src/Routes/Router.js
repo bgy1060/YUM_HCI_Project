@@ -12,12 +12,12 @@ const Router = () => (
         <Route exact path="/YUM_HCI_Project/register" component={Regi} />
         <Route exact path="/YUM_HCI_Project" component={Main} />
         <Route path="/YUM_HCI_Project/mypage" component={My} />
-        <Route exact path="/YUM_HCI_Project/pages/1/" component={Main} />
-        <Route exact path="/YUM_HCI_Project/popular" component={Main_sort} />
-        <Route exact path="/YUM_HCI_Project/pages/2/" component={Page2} />
-        <Route exact path="/YUM_HCI_Project/pages/2/popular/" component={Page2_sort} />
-        <Route exact path="/YUM_HCI_Project/pages/3/" component={Page3} />
-        <Route exact path="/YUM_HCI_Project/pages/3/popular/" component={Page3_sort} />
+        <Route exact path="/YUM_HCI_Project/pages1/" component={Main} />
+        <Route exact path="/YUM_HCI_Project_popular" component={Main_sort} />
+        <Route exact path="/YUM_HCI_Project/pages2/" component={Page2} />
+        <Route exact path="/YUM_HCI_Project/pages_2_popular/" component={Page2_sort} />
+        <Route exact path="/YUM_HCI_Project/pages3/" component={Page3} />
+        <Route exact path="/YUM_HCI_Project/pages_3_popular/" component={Page3_sort} />
         <Route exact path="/YUM_HCI_Project/blue/" component={Blue} />
         <Route exact path="/YUM_HCI_Project/blue/1" component={Blue} />
         <Route exact path="/YUM_HCI_Project/blue/2" component={Blue2} />

@@ -72,8 +72,8 @@ class Page3_sort extends Component {
             SORT BY
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="/YUM_HCI_Project/pages/3/popular/">Popluarity</Dropdown.Item>
-            <Dropdown.Item href="/YUM_HCI_Project/pages/3/">Last updated</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages_3_popular/">Popluarity</Dropdown.Item>
+            <Dropdown.Item href="/YUM_HCI_Project/pages3/">Last updated</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
         <div className="main-post">
