@@ -34,7 +34,7 @@
   .content p {
     font-size: 12pt;
     color: #999;
-    margin-top: 24%;
+    margin-top: 14%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -51,6 +51,7 @@
     color: white;
     border: 0;
     cursor: pointer;
+    margin: 0;
   }
   .button-wrap button:hover {
     background-color: #688e99;

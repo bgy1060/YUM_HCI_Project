@@ -5,7 +5,7 @@ import MenuTemplate from '../components/MenuTemplate';
 import Header from '../components/Header';
 import Select from 'react-select';
 import { Link } from 'react-router-dom';
-import Modal from './Modal2';
+import Modal from './Modal';
 
 const options = [
   { value: 'gmail', label: 'gmail.com' },
