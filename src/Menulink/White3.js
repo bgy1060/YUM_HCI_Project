@@ -44,10 +44,10 @@ class White3 extends Component {
         <div className="main-post">
           <Post thumb={White13} thumb_des="Scandinavian style is the trendiedst in white interior design" count="53"/>
           <Post thumb={White14} thumb_des="Geometric details bring excitement to modern white interiors"  count="9"/>
-          <Post thumb={White15} thumb_des="White is as powerful and dramatic in this more graphic aesthetic as it is in the softer, layered Scandinavian approach"  count="244"/>
-          <Post thumb={White16} thumb_des="White on white modern foyer layers on the shapes with its wall of black and white photography and just add a little contrast, the designer layered in an organic light pedant and a gilded mirror"  count="78"/>
+          <Post thumb={White15} thumb_des="White is as powerful and dramatic in this more graphic aesthetic as it is in the softer"  count="244"/>
+          <Post thumb={White16} thumb_des="White on white modern foyer layers on the shapes with its wall"  count="78"/>
           <Post thumb={White17} thumb_des="Light-White-Color-For-Living-room"  count="97"/>
-          <Post thumb={White18} thumb_des="A modern white dedroom brings on th geometry via its quilted duvet and head board and by the symmetry of stools, flower vases, and bedside lights"  count="55"/>
+          <Post thumb={White18} thumb_des="A modern white dedroom brings on th geometry via its quilted duvet"  count="55"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

@@ -45,8 +45,8 @@ class Blue3 extends Component {
         <div className="main-post">
           <Post thumb={Blue10} thumb_des="How to decorate and accessorise rooms with blue" count="57"/>
           <Post thumb={Blue11} thumb_des="Color blue inspired interior:There's more blue than it meets the eye"  count="186"/>
-          <Post thumb={Blue12} thumb_des="If you genuinely adore blue and like being surrounded by it, start by painting the walls in your favorite blue shade."  count="241"/>
-          <Post thumb={Blue13} thumb_des="The most classic pairing is a cool blue accent — being the least aggressive color choice possible."  count="78"/>
+          <Post thumb={Blue12} thumb_des="If you genuinely adore blue and like being surrounded by it, start by painting the walls "  count="241"/>
+          <Post thumb={Blue13} thumb_des="The most classic pairing is a cool blue accent."  count="78"/>
           <Post thumb={Blue14} thumb_des="color blue offers freshness and elegance in this Mediterranean themed room"  count="67"/>
           <Post thumb={Blue15} thumb_des="The combination of white and blue accentuates the neat but bold effect"  count="27"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>

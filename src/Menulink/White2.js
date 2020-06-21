@@ -46,7 +46,7 @@ class White2 extends Component {
           <Post thumb={White7} thumb_des="Clear style, white, used almost everywhere, symbolizing purity" count="53"/>
           <Post thumb={White8} thumb_des="White can create a joyful and also a serious space"  count="9"/>
           <Post thumb={White9} thumb_des="Minimalist Blue Bathroom Interior Color Idea"  count="244"/>
-          <Post thumb={White10} thumb_des="White is the color of peace, that’s why at battles men used to wave a white material to the opponent forcing it to make peace"  count="78"/>
+          <Post thumb={White10} thumb_des="White is the color of peace, that’s why at battles men used to wave a white material "  count="78"/>
           <Post thumb={White11} thumb_des="White is perfect for all rooms inside your house or apartment"  count="97"/>
           <Post thumb={White12} thumb_des="Elegant-White-Interior-Idea-For-Home"  count="55"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>

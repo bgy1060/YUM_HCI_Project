@@ -43,12 +43,12 @@ class Nordic2 extends Component {
           </Badge>{' '}
         </div>
         <div className="main-post">
-          <Post thumb={nordic7} thumb_des="Pink and green scatter cushions and pastel coloured wall art introduce colour to the living room of home tour number two" count="57"/>
+          <Post thumb={nordic7} thumb_des="Pink and green scatter cushions and pastel coloured wall art introduce colour" count="57"/>
           <Post thumb={nordic8} thumb_des="A white hallway connects the living areas"  count="39"/>
           <Post thumb={nordic9} thumb_des="Hanging planters rain down the kitchen window"  count="24"/>
           <Post thumb={nordic10} thumb_des="The abundant living greenery lifts the look of a grey and white one wall kitchen"  count="192"/>
           <Post thumb={nordic11} thumb_des="Living room sofa faces a glass wall bedroom, accessed via double doors"  count="57"/>
-          <Post thumb={nordic12} thumb_des="Living room in tour number three is accessorised with a beautiful botanical art print. A neat wooden side table holds some quirky animal figurines"  count="28"/>
+          <Post thumb={nordic12} thumb_des="Living room in tour number three is accessorised with a beautiful botanical."  count="28"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>

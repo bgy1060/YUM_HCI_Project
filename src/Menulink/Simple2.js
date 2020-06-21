@@ -47,8 +47,8 @@ class Simple2 extends Component {
           <Post thumb={simple8} thumb_des="Simple Interior Design Living Room House"  count="9"/>
           <Post thumb={simple9} thumb_des="Simple Dining Room Kitchen Decobizz"  count="244"/>
           <Post thumb={simple10} thumb_des="Amazing Modern House Design Contemporary Interior Home"  count="78"/>
-          <Post thumb={simple11} thumb_des="Simple Home Interior Design Living Room Living Room Interior Design For Small Spaces"  count="97"/>
-          <Post thumb={simple12} thumb_des="Cozy Living Room Ideas Living Room Decor Idea With Nifty Living Room Decorating Ideas"  count="55"/>
+          <Post thumb={simple11} thumb_des="Simple Home Interior Design Living Room Living Room Interior Design"  count="97"/>
+          <Post thumb={simple12} thumb_des="Cozy Living Room Ideas Living Room Decor Idea With Nifty Living Room"  count="55"/>
           <Pagination onClick={this.pageChanged}>{items}</Pagination>
       </div>
     </div>
