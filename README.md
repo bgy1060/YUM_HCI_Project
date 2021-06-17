@@ -20,3 +20,12 @@ Users can simply view the interior information blog related to the tag by clicki
 The ultimate goal of the user is to see the desired interior reference sites at a glance and collect them. 
 So, the most important point of this project is how to effectively classify and sort tagged blogs. Also, detailed method implementation is needed for how to collect and add interior and suitable Naver blog.
 
+### 3. Screen
+
+![img](https://user-images.githubusercontent.com/37237145/92559032-c1eb3200-f2aa-11ea-9511-dd85cfbc36e7.JPG)
+
+![img](https://user-images.githubusercontent.com/37237145/92559200-11316280-f2ab-11ea-99f8-e1fb5a7fc211.png)
+
+![img](https://user-images.githubusercontent.com/37237145/92559242-25755f80-f2ab-11ea-9518-003571b40336.png)
+
+HOSTING BY GITHUB PAGES : https://bgy1060.github.io/YUM_HCI_Project/ (can't solve SPA error)
